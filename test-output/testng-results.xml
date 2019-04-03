@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-04-03T18:36:38Z" name="Command line suite" finished-at="2019-04-03T18:37:10Z" duration-ms="31800">
+    <groups>
+    </groups>
+    <test started-at="2019-04-03T18:36:38Z" name="Command line test" finished-at="2019-04-03T18:37:10Z" duration-ms="31800">
+      <class name="pack.crm.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pack.crm.testcases.LoginPageTest@11e21d0e]" started-at="2019-04-03T13:36:38Z" name="setUp" finished-at="2019-04-03T13:36:48Z" duration-ms="9759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:0, instance:pack.crm.testcases.LoginPageTest@11e21d0e]" started-at="2019-04-03T13:36:48Z" name="loginPageTitleTest" finished-at="2019-04-03T13:36:48Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pack.crm.testcases.LoginPageTest@11e21d0e]" started-at="2019-04-03T13:36:48Z" name="afterMethod" finished-at="2019-04-03T13:36:48Z" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pack.crm.testcases.LoginPageTest@11e21d0e]" started-at="2019-04-03T13:36:48Z" name="setUp" finished-at="2019-04-03T13:36:57Z" duration-ms="8178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="crmImageTest()[pri:0, instance:pack.crm.testcases.LoginPageTest@11e21d0e]" started-at="2019-04-03T13:36:57Z" name="crmImageTest" finished-at="2019-04-03T13:36:57Z" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crmImageTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pack.crm.testcases.LoginPageTest@11e21d0e]" started-at="2019-04-03T13:36:57Z" name="afterMethod" finished-at="2019-04-03T13:36:57Z" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pack.crm.testcases.LoginPageTest@11e21d0e]" started-at="2019-04-03T13:36:57Z" name="setUp" finished-at="2019-04-03T13:37:06Z" duration-ms="8583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:pack.crm.testcases.LoginPageTest@11e21d0e]" started-at="2019-04-03T13:37:06Z" name="loginTest" finished-at="2019-04-03T13:37:09Z" duration-ms="3063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pack.crm.testcases.LoginPageTest@11e21d0e]" started-at="2019-04-03T13:37:09Z" name="afterMethod" finished-at="2019-04-03T13:37:10Z" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- pack.crm.testcases.LoginPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

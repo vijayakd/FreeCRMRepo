@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Regression1</td><td class="numi">8</td><td class="numi">8</td><td class="numi_attn">1</td><td class="numi_attn">7</td><td class="numi">220.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Regression1 &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">pack.crm.testcases.PhantomJSTest</td><td><a href="#m1"><b>setup</b>  </a></td><td class="numi">1</td><td>1553994758556</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Regression1 &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">pack.crm.testcases.ContactsPageTest</td><td><a href="#m2"><b>selectContactsByNametest</b>  </a></td><td class="numi">1</td><td>1553994568670</td><td class="numi">50063</td></tr>
+<tr class="failedeven"><td rowspan="2">pack.crm.testcases.CRMExtentreportSceenShotForFTCs</td><td><a href="#m3"><b>freeCRMTitleTest</b>  </a></td><td class="numi">1</td><td>1553994671225</td><td class="numi">14</td></tr><tr class="failedeven"><td><a href="#m4"><b>test1</b>  </a></td><td class="numi">1</td><td>1553994677547</td><td class="numi">0</td></tr>
+<tr class="failedodd"><td rowspan="1">pack.crm.testcases.FreeCRMHashMapTest</td><td><a href="#m5"><b>loginwithUser1Credentials</b>  </a></td><td class="numi">1</td><td>1553994685921</td><td class="numi">144</td></tr>
+<tr class="failedeven"><td rowspan="3">pack.crm.testcases.HomePageTest</td><td><a href="#m6"><b>verifyHomePageTitleTest</b>  </a></td><td class="numi">1</td><td>1553994699215</td><td class="numi">47</td></tr><tr class="failedeven"><td><a href="#m7"><b>verifyuserNameTest</b>  </a></td><td class="numi">1</td><td>1553994712608</td><td class="numi">47</td></tr><tr class="failedeven"><td><a href="#m8"><b>verrifyContactsLinkTest</b>  </a></td><td class="numi">1</td><td>1553994725079</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Regression1 &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">pack.crm.testcases.PhantomJSTest</td><td><a href="#m9"><b>teardown</b>  </a></td><td class="numi">1</td><td>1553994758556</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Regression1 &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="1">pack.crm.testcases.PhantomJSTest</td><td><a href="#m10"><b>sampleTest</b>  </a></td><td class="numi">1</td><td>1553994758556</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Regression1 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="4">pack.crm.testcases.ContactsPageTest</td><td><a href="#m11"><b>verifyContactsPageLabelTest</b>  </a></td><td class="numi">1</td><td>1553994554752</td><td class="numi">45</td></tr><tr class="passedodd"><td><a href="#m12"><b>validateCreateNewContact</b>  </a></td><td class="numi">3</td><td>1553994633095</td><td class="numi">32172</td></tr><tr class="passedodd"><td><a href="#m13"><b>validateCreateNewContact</b>  </a></td><td class="numi">3</td><td>1553994633095</td><td class="numi">32172</td></tr><tr class="passedodd"><td><a href="#m14"><b>validateCreateNewContact</b>  </a></td><td class="numi">3</td><td>1553994633095</td><td class="numi">32172</td></tr>
+<tr class="passedeven"><td rowspan="3">pack.crm.testcases.LoginPageTest</td><td><a href="#m15"><b>loginPageTitleTest</b>  </a></td><td class="numi">1</td><td>1553994733668</td><td class="numi">7</td></tr><tr class="passedeven"><td><a href="#m16"><b>crmImageTest</b>  </a></td><td class="numi">1</td><td>1553994741991</td><td class="numi">27</td></tr><tr class="passedeven"><td><a href="#m17"><b>loginTest</b>  </a></td><td class="numi">1</td><td>1553994750216</td><td class="numi">1619</td></tr>
+<tr class="passedodd"><td rowspan="1">pack.crm.testcases.parcticeLog4j</td><td><a href="#m18"><b>test1</b>  </a></td><td class="numi">1</td><td>1553994757891</td><td class="numi">0</td></tr>
+</table>
+<h1>Regression1</h1>
+<h2 id="m1">pack.crm.testcases.PhantomJSTest:setup</h2>
+<div style="padding-left:3em">
+<p>org.openqa.selenium.os.CommandLine.find(Ljava/lang/String;)Ljava/lang/String;</p>
+org.openqa.selenium.phantomjs.PhantomJSDriverService.findPhantomJS(PhantomJSDriverService.java:232)
+<br/>at org.openqa.selenium.phantomjs.PhantomJSDriverService.createDefaultService(PhantomJSDriverService.java:181)
+<br/>at org.openqa.selenium.phantomjs.PhantomJSDriver.&lt;init&gt;(PhantomJSDriver.java:104)
+<br/>at org.openqa.selenium.phantomjs.PhantomJSDriver.&lt;init&gt;(PhantomJSDriver.java:94)
+<br/>at pack.crm.testcases.PhantomJSTest.setup(PhantomJSTest.java:46)
+<br/>31 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">pack.crm.testcases.HomePageTest:verifyHomePageTitleTest</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pack.crm.testcases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:38)
+<br/>29 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">pack.crm.testcases.FreeCRMHashMapTest:loginwithUser1Credentials</h2>
+<div style="padding-left:3em">
+<p>Index 1 out of bounds for length 1</p>
+pack.crm.testcases.FreeCRMHashMapTest.loginwithUser1Credentials(FreeCRMHashMapTest.java:37)
+<br/>29 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">pack.crm.testcases.HomePageTest:verrifyContactsLinkTest</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pack.crm.testcases.HomePageTest.verrifyContactsLinkTest(HomePageTest.java:56)
+<br/>29 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">pack.crm.testcases.HomePageTest:verifyuserNameTest</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pack.crm.testcases.HomePageTest.verifyuserNameTest(HomePageTest.java:48)
+<br/>29 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">pack.crm.testcases.CRMExtentreportSceenShotForFTCs:freeCRMTitleTest</h2>
+<div style="padding-left:3em">
+<p>expected [CRMPRO  - CRM software for customer relationship management, sales, and support.] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at pack.crm.testcases.CRMExtentreportSceenShotForFTCs.freeCRMTitleTest(CRMExtentreportSceenShotForFTCs.java:54)
+<br/>29 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">pack.crm.testcases.CRMExtentreportSceenShotForFTCs:test1</h2>
+<div style="padding-left:3em">
+<p>expected [false] but found [true]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:286)
+<br/>at org.testng.Assert.assertEquals(Assert.java:296)
+<br/>at pack.crm.testcases.CRMExtentreportSceenShotForFTCs.test1(CRMExtentreportSceenShotForFTCs.java:46)
+<br/>29 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">pack.crm.testcases.ContactsPageTest:selectContactsByNametest</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&quot;test2 test2&quot;)]//parent::td[@class=&quot;datalistrow&quot;]//preceding-sibling::td[@class=&quot;datalistrow&quot;]//input[@type=&quot;checkbox&quot;]&quot;}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;VIJAYA&apos;, ip: &apos;192.168.1.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\vijay\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53077}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: c4b962b8e95b83109b29404fb2580ce8
+*** Element info: {Using=xpath, value=//a[contains(text(),&quot;test2 test2&quot;)]//parent::td[@class=&quot;datalistrow&quot;]//preceding-sibling::td[@class=&quot;datalistrow&quot;]//input[@type=&quot;checkbox&quot;]}</p>
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at pack.crm.pages.ContactsPage.selectContactsByName(ContactsPage.java:38)
+<br/>at pack.crm.testcases.ContactsPageTest.selectContactsByNametest(ContactsPageTest.java:33)
+<br/>29 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">pack.crm.testcases.PhantomJSTest:teardown</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">pack.crm.testcases.PhantomJSTest:sampleTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">pack.crm.testcases.ContactsPageTest:verifyContactsPageLabelTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">pack.crm.testcases.LoginPageTest:loginTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">pack.crm.testcases.LoginPageTest:loginPageTitleTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">pack.crm.testcases.LoginPageTest:crmImageTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">pack.crm.testcases.ContactsPageTest:validateCreateNewContact</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>Dr.</td>
+<td>tom</td>
+<td>peter</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">pack.crm.testcases.ContactsPageTest:validateCreateNewContact</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>Mr.</td>
+<td>sam</td>
+<td>welch</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">pack.crm.testcases.parcticeLog4j:test1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">pack.crm.testcases.ContactsPageTest:validateCreateNewContact</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>Ms.</td>
+<td>linda</td>
+<td>tree</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

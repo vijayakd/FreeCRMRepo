@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Free CRM Automation Test Suite]" verbose="0">
+  <listeners>
+    <listener class-name="pack.crm.ExtentreportListener.ExtentreportListener"/>
+  </listeners>
+  <test name="Regression1(failed)">
+    <classes>
+      <class name="pack.crm.testcases.CRMExtentreportSceenShotForFTCs">
+        <methods>
+          <include name="test1"/>
+          <include name="endReport"/>
+          <include name="teardown"/>
+          <include name="setExtent"/>
+          <include name="setup"/>
+          <include name="freeCRMTitleTest"/>
+        </methods>
+      </class> <!-- pack.crm.testcases.CRMExtentreportSceenShotForFTCs -->
+      <class name="pack.crm.testcases.FreeCRMHashMapTest">
+        <methods>
+          <include name="loginwithUser1Credentials"/>
+          <include name="setup"/>
+          <include name="tearddown"/>
+        </methods>
+      </class> <!-- pack.crm.testcases.FreeCRMHashMapTest -->
+      <class name="pack.crm.testcases.LoginPageTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- pack.crm.testcases.LoginPageTest -->
+      <class name="pack.crm.testcases.parcticeLog4j">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- pack.crm.testcases.parcticeLog4j -->
+      <class name="pack.crm.testcases.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="verrifyContactsLinkTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyuserNameTest"/>
+        </methods>
+      </class> <!-- pack.crm.testcases.HomePageTest -->
+      <class name="pack.crm.testcases.ContactsPageTest">
+        <methods>
+          <include name="selectContactsByNametest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- pack.crm.testcases.ContactsPageTest -->
+      <class name="pack.crm.testcases.PhantomJSTest">
+        <methods>
+          <include name="setup"/>
+          <include name="sampleTest"/>
+        </methods>
+      </class> <!-- pack.crm.testcases.PhantomJSTest -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Free CRM Automation Test Suite] -->

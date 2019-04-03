@@ -1,0 +1,47 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 8, Errors: 0, Skipped: 2, Time elapsed: 221.228 s <<< FAILURE! - in TestSuite
+selectContactsByNametest(pack.crm.testcases.ContactsPageTest)  Time elapsed: 50.078 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),"test2 test2")]//parent::td[@class="datalistrow"]//preceding-sibling::td[@class="datalistrow"]//input[@type="checkbox"]"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VIJAYA', ip: '192.168.1.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\vijay\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53077}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: c4b962b8e95b83109b29404fb2580ce8
+*** Element info: {Using=xpath, value=//a[contains(text(),"test2 test2")]//parent::td[@class="datalistrow"]//preceding-sibling::td[@class="datalistrow"]//input[@type="checkbox"]}
+	at pack.crm.testcases.ContactsPageTest.selectContactsByNametest(ContactsPageTest.java:33)
+
+freeCRMTitleTest(pack.crm.testcases.CRMExtentreportSceenShotForFTCs)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: expected [CRMPRO  - CRM software for customer relationship management, sales, and support.] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]
+	at pack.crm.testcases.CRMExtentreportSceenShotForFTCs.freeCRMTitleTest(CRMExtentreportSceenShotForFTCs.java:54)
+
+test1(pack.crm.testcases.CRMExtentreportSceenShotForFTCs)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at pack.crm.testcases.CRMExtentreportSceenShotForFTCs.test1(CRMExtentreportSceenShotForFTCs.java:46)
+
+loginwithUser1Credentials(pack.crm.testcases.FreeCRMHashMapTest)  Time elapsed: 0.146 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at pack.crm.testcases.FreeCRMHashMapTest.loginwithUser1Credentials(FreeCRMHashMapTest.java:37)
+
+verifyHomePageTitleTest(pack.crm.testcases.HomePageTest)  Time elapsed: 0.047 s  <<< FAILURE!
+java.lang.NullPointerException
+	at pack.crm.testcases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:38)
+
+verifyuserNameTest(pack.crm.testcases.HomePageTest)  Time elapsed: 0.047 s  <<< FAILURE!
+java.lang.NullPointerException
+	at pack.crm.testcases.HomePageTest.verifyuserNameTest(HomePageTest.java:48)
+
+verrifyContactsLinkTest(pack.crm.testcases.HomePageTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at pack.crm.testcases.HomePageTest.verrifyContactsLinkTest(HomePageTest.java:56)
+
+setup(pack.crm.testcases.PhantomJSTest)  Time elapsed: 0.659 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.openqa.selenium.os.CommandLine.find(Ljava/lang/String;)Ljava/lang/String;
+	at pack.crm.testcases.PhantomJSTest.setup(PhantomJSTest.java:46)
+
