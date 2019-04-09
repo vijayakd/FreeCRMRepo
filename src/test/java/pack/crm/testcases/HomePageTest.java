@@ -55,18 +55,7 @@ public class HomePageTest extends TestBase {
 	public void verrifyContactsLinkTest() {
 contactspage=homepage.clickOnContactsLink();	
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
   @BeforeMethod
   public void setup() throws InterruptedException {

@@ -1,11 +1,11 @@
+pack\crm\testdata\HashMapTestData.class
 pack\crm\ExtentreportListener\ExtentreportListener.class
 pack\crm\pages\ContactsPage.class
 pack\crm\base\TestBase.class
-pack\crm\utils\TestUtil.class
-pack\crm\pages\SignUpPage.class
-pack\crm\testdata\HashMapTestData.class
 pack\crm\pages\HomePage.class
 pack\crm\pages\DealsPage.class
 pack\crm\utils\WebEventlistener.class
 pack\crm\pages\LoginPage.class
 pack\crm\pages\TasksPage.class
+pack\crm\utils\TestUtil.class
+pack\crm\pages\SignUpPage.class

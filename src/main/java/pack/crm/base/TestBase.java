@@ -22,7 +22,8 @@ public class TestBase {
 	public static EventFiringWebDriver e_driver;
 	public static WebEventlistener eventlistenet;
 	
-*/	public TestBase()  {
+*/	
+	public TestBase()  {
 		 prop = new Properties();
 		//FileInputStream fis;
 		try {
@@ -40,9 +41,9 @@ public class TestBase {
 	public static void initialization() {
 	String browserName = prop.getProperty("browser");
 	if(browserName.equalsIgnoreCase("chrome")) {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\vijay\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		
-		 driver = new ChromeDriver();
+				System.setProperty("webdriver.chrome.driver","C:\\Users\\vijay\\Downloads\\chromedriver_win32\\chromedriver.exe");
+				 driver = new ChromeDriver();
 	}else
 		if(browserName.equalsIgnoreCase("ff")) {
 			System.setProperty("webdriver.gecko.driver", "C:\\Users\\vijay\\Downloads\\geckodriver-v0.24.0-win64\\geckodriver.exe");

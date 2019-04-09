@@ -23,18 +23,12 @@
           <include name="tearddown"/>
         </methods>
       </class> <!-- pack.crm.testcases.FreeCRMHashMapTest -->
-      <class name="pack.crm.testcases.LoginPageTest">
-        <methods>
-          <include name="afterMethod"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- pack.crm.testcases.LoginPageTest -->
-      <class name="pack.crm.testcases.parcticeLog4j">
+      <class name="pack.crm.testcases.PhantomJSTest">
         <methods>
           <include name="setup"/>
-          <include name="teardown"/>
+          <include name="sampleTest"/>
         </methods>
-      </class> <!-- pack.crm.testcases.parcticeLog4j -->
+      </class> <!-- pack.crm.testcases.PhantomJSTest -->
       <class name="pack.crm.testcases.HomePageTest">
         <methods>
           <include name="verifyHomePageTitleTest"/>
@@ -44,6 +38,12 @@
           <include name="verifyuserNameTest"/>
         </methods>
       </class> <!-- pack.crm.testcases.HomePageTest -->
+      <class name="pack.crm.testcases.LoginPageTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- pack.crm.testcases.LoginPageTest -->
       <class name="pack.crm.testcases.ContactsPageTest">
         <methods>
           <include name="selectContactsByNametest"/>
@@ -51,12 +51,12 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- pack.crm.testcases.ContactsPageTest -->
-      <class name="pack.crm.testcases.PhantomJSTest">
+      <class name="pack.crm.testcases.parcticeLog4j">
         <methods>
           <include name="setup"/>
-          <include name="sampleTest"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- pack.crm.testcases.PhantomJSTest -->
+      </class> <!-- pack.crm.testcases.parcticeLog4j -->
     </classes>
   </test> <!-- Regression1(failed) -->
 </suite> <!-- Failed suite [Free CRM Automation Test Suite] -->

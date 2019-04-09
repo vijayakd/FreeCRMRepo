@@ -34,7 +34,7 @@
         <version>3.0.0-M3</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>C:\Users\vijay\eclipse-workspace\FreeCRMTest\src\main\resources\testng.xml</suiteXmlFile>
+            <suiteXmlFile>C:\Users\vijay\eclipse-workspace\FreeCRMTest\testng.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
@@ -42,21 +42,6 @@
       
        
   </build>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  
   <dependencies>
   
